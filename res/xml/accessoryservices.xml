@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <application name="WatchaiGear" >
+        <serviceProfile
+            id="/system/watchai"
+            name="watchai"
+            role="consumer"
+            serviceImpl="uk.ac.mmu.watchai.register.TizenConnection" 
+            version="1.0" >
+            <supportedTransports>
+                <transport type="TRANSPORT_BT" />
+                <transport type="TRANSPORT_WIFI"/>
+            </supportedTransports>
+            <serviceChannel
+                id="104"
+                dataRate="low"
+                priority="low"
+                reliability="enable" >
+            </serviceChannel>
+        </serviceProfile>
+    </application>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/BabyWatchCP" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="rLZWmSY51u.BabyWatchCP" package="rLZWmSY51u" required_version="2.2"/>
+
+<access origin="http://m21.cloudmqtt.com" subdomains="true"></access>    
+
+<access origin="http://m21.cloudmqtt.com:37781" subdomains="true"></access>
+<access origin="*" subdomains="true"></access>
+
+
+<tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://developer.samsung.com/tizen/feature/network.accessory_protocol"/>
+    <feature name = "http://tizen.org/feature/network.internet"></feature>
+    <icon src="icon.png"/>
+    <tizen:metadata key="AccessoryServicesLocation" value="res/xml/accessoryservices.xml"/>
+    <name>Watchai</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+    <tizen:profile name="WatchaiGear"/>
+    
+</widget>

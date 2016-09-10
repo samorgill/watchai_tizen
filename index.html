@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Wearable UI</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<script src="js/jquery-1.12.1.js" type="text/javascript"></script>
+	<script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+	<script src="js/zone.js"></script>
+	<link href="zone.html"> 
+	<!-- load theme file for your application -->
+	<link rel="stylesheet"  href="css/style.css">
+</head>
+<body onload="getUser();">
+	<div class="ui-page ui-page-active" id="main">
+	<div id='userNa'></div>
+		<header class="ui-header">
+			<h2 class="ui-title">Watchai</h2>
+		</header>
+		<div class="ui-content">
+			<ul class="ui-listview">
+		<!-- 	
+		<div id="logArea">
+		<li><label for="user2"><input type="text" name="user2" id="user2" placeholder="Username"/></label></li>
+		<li><label for="pass2"><input type="password" name="pass2" id="pass2" placeholder="Password"/></label></li>
+		<li><label for="email"><input type="text" name="email" id="email" placeholder="Email"/></label></li>
+  		<li><a href="#" onclick="register();">Register</a></li>
+  		</div>
+				 -->
+				<!-- <li><a href="#" onclick="connect();">Connect</a></li>
+				<li><a href="#" onclick="fetch();">Fetch</a></li>
+				<li><a href="#" onclick="home();">Home</a></li> -->
+				<li><a href="#" onclick="things();">Things</a></li>
+				<li><a href="#" onclick="rooms();">Rooms</a></li>
+				<li><a href="#" onclick="zones();">Zones</a></li>
+				<li><a href="#" onclick="recipes();">Recipes</a></li>
+				<li><a href="#" onclick="setUp();">Setup</a></li>
+				<!-- <li><a href="#" onclick="disconnect();">Disconnect</a></li> -->
+				
+			</ul>
+		</div>
+		
+		
+		<div id="toast" class="ui-popup ui-popup-toast">
+			<div id="toast-content" class="ui-popup-content">
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+<script type="text/javascript" src="js/circle-helper.js"></script>
+<!-- load javascript file for your application -->
+<script src="js/main.js"></script>
+
+
+<script src="js/things.js"></script>
+
+</html>
