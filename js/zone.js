@@ -6,6 +6,11 @@ function zones(){
 	window.open("zone.html");
 }
 
+function recipes(){
+	window.open("recipes.html");
+}
+
+
 function setUp(){
 	window.open("setup.html");
 }

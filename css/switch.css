@@ -58,3 +58,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+#emergency{
+	background-color: #b51b04;
+}

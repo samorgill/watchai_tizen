@@ -3,5 +3,5 @@
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/index.html
-res/wgt/js\zone.js
+res/wgt/lib\tau\wearable\theme\brown\tau.min.css
+res/wgt/things.html
