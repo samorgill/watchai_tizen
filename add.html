@@ -6,9 +6,8 @@
 	<script src="js/jquery-2.2.1.js" type="text/javascript"></script>
 	<script src="js/jquery-1.12.1.js" type="text/javascript"></script>
 	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
-	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
-	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet" href="lib/tau/wearable/theme/brown/tau.min.css">
+	
 		<link rel="stylesheet" href="css/jquery-ui.theme.min.css" type="text/css"/>
 	<link rel="stylesheet" href="css/jquery-ui.structure.min.css" type="text/css"/>
 	<link href="index.html"> 
@@ -17,7 +16,6 @@
  
   </head>
   <body onload="start();">
-   
   
 	<div class="ui-page ui-page-active" id="main">
 	<div id='userArea'></div>
@@ -36,42 +34,29 @@
 	   <option value="Unlocked">Off</option>
 	   </select></li>
 	   <li> <label for="serial"><input type="text" name="serial" id="serial" placeholder="Serial No."/></label> </li>
-	  
-   
+	
   <li> 
   <button type="button" id="addit" onclick="addit();">Add Thing</button></li>
   
   		</div>
-				
-		
-		
 		<li><div id="success"></div></li>
 		<li><a href="#" onclick="zones();">Zone</a></li>
 		<li><a href="#" onclick="back();">Back</a></li>
-		
-		
-			</ul>
-			
+		</ul>
 		</div>
-		
-		
-		
 		<div id="pop" class="ui-popup ui-popup-toast">
 			<div id="popcon" class="ui-popup-content">
 			</div>
 		</div>
-		
-		
-		
 	</div>
-  
-  
-  
   </body>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
   
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <script type="text/javascript" src="js/circle-helper.js"></script>
-<script src="js/zone.js"></script>
+<script src="js/cloud_MQTT.js"></script>
+<script src="js/add.js"></script>
+<script src="js/things.js"></script>
+
 </html>

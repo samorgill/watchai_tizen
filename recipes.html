@@ -6,17 +6,14 @@
 	<script src="js/jquery-2.2.1.js" type="text/javascript"></script>
 	<script src="js/jquery-1.12.1.js" type="text/javascript"></script>
 	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
-	<!-- <script src="js/main.js"></script> -->
 	<link rel="stylesheet" href="lib/tau/wearable/theme/brown/tau.min.css">
-	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
-	<link rel="stylesheet"  href="css/style.css">
 	<link href="index.html"> 
 	<link rel="stylesheet" href="css/switch.css">
  
   </head>
   
   <!-- Initialises the MQTT Broker -->
-  <body onload="start();">
+  <body onload="startMon();">
 	<div class="ui-page ui-page-active" id="main">
 	<div id='userArea'></div>
 		<header class="ui-header">
@@ -31,7 +28,6 @@
 			<li><a href="#" onclick="sooth();">Sooth</a>
 			<li><a href="#" onclick="entertain();">Entertain</a>
 			<li id='emergency' ><a href="#" onclick="emergency();">Emergency</a>
-			<li><a href="#" onclick="add();">Add</a></li>
 			<li><a href="#" onclick="back();">Back</a></li>
 		</ul>	
 		</div>

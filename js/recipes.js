@@ -1,6 +1,4 @@
-/**
- * @author Samuel Orgill 15118305
- */
+
 
 /*
  * Function for going back to the home view
@@ -8,31 +6,38 @@
 
 function back(){
 	window.open("index.html");
+	client.disconnect();
 }
+
+/**
+ * Functions to send MQTT messages
+ */
+
+type = "Recipe";
 
 function sleep(){
 	var sleep = "sleep";
-	singleMessage(sleep);
+	sendMessage(type, sleep);
 }
 
 function wake(){
 	var wake = "wake";
-	singleMessage(wake);
+	sendMessage(type, wake);
 }
 
 function sooth(){
 	var sooth = "sooth";
-	singleMessage(sooth);
+	sendMessage(type, sooth);
 }
 
 function entertain(){
 	var entertain = "entertain";
-	singleMessage(entertain);
+	sendMessage(type, entertain);
 }
 
 function emergency(){
 	var emergency = 'emergency';
-	singleMessage(emergency);
+	sendMessage(type, emergency);
 	
 }
 

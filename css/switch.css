@@ -62,3 +62,8 @@ input:checked + .slider:before {
 #emergency{
 	background-color: #b51b04;
 }
+
+.toggle{
+	color: #f7f3f2;
+	padding-left: 15px;
+}

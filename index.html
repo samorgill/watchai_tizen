@@ -4,13 +4,10 @@
 	<meta name="viewport" content="width=device-width,user-scalable=no"/>
 	<title>Wearable UI</title>
 	<link rel="stylesheet" href="lib/tau/wearable/theme/brown/tau.min.css">
-	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
 	<script src="js/jquery-1.12.1.js" type="text/javascript"></script>
 	<script src="js/jquery-2.2.1.js" type="text/javascript"></script>
-	<script src="js/zone.js"></script>
+	<script src="js/things.js"></script>
 	<link href="zone.html"> 
-	<!-- load theme file for your application -->
-	<link rel="stylesheet"  href="css/style.css">
 </head>
 <body onload="getUser();">
 	<div class="ui-page ui-page-active" id="main">
@@ -32,9 +29,8 @@
 				<li><a href="#" onclick="fetch();">Fetch</a></li>
 				<li><a href="#" onclick="home();">Home</a></li> -->
 				<li><a href="#" onclick="things();">Things</a></li>
-				<li><a href="#" onclick="rooms();">Rooms</a></li>
-				<li><a href="#" onclick="zones();">Zones</a></li>
 				<li><a href="#" onclick="recipes();">Recipes</a></li>
+				<li><a href="#" onclick="monitor();">Monitor</a></li>
 				<li><a href="#" onclick="setUp();">Setup</a></li>
 				<!-- <li><a href="#" onclick="disconnect();">Disconnect</a></li> -->
 				
@@ -52,9 +48,9 @@
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <script type="text/javascript" src="js/circle-helper.js"></script>
 <!-- load javascript file for your application -->
-<script src="js/main.js"></script>
-
-
 <script src="js/things.js"></script>
+
+
+<!--<script src="js/things.js"></script>-->
 
 </html>

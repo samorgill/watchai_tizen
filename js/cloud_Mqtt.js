@@ -1,33 +1,39 @@
+
+/*
+ * Method to initialise MQTT Broker
+ * Called onload.
+ */
+function start(){
+	init();
+	onReg2();
+}
+
 /**
- * @author Samuel Orgill 15118305
+ * Function to start when Monitor clicked
+ * @param data
  */
 
-function start(){
+function startMon(){
 	init();
 }
 
+// Gets the IP of the Hub (from the Phone)
 function addIP(data){
 	localstorage.setItem("ipAddress", data);
 	$('#resultScreen').append(localstorage.getItem("ipAddress"));
-}
-
-function alertTest(){
-	console.log(localStorage.getItem('ipAddress'));
-	$('#resultScreen').append(localStorage.getItem('ipAddress'));
 }
 
 //Get users username
 user = localStorage.getItem("user");
 
 //Get details of zones from phone
-
 ipAddress = localStorage.getItem('ipAddress');
 ipAddTest = "192.168.0.19";
 
 
 // Create a client instance
 
-client = new Paho.MQTT.Client("m21.cloudmqtt.com", 37781, "webgh" + parseInt(Math.random() * 100, 10));
+client = new Paho.MQTT.Client("m21.cloudmqtt.com", 37781, "Gear" + parseInt(Math.random() * 100, 10));
 
 //client = new Paho.MQTT.Client("192.168.0.30", 1883, "SamsungGear"); 
 /*
@@ -51,6 +57,7 @@ onFailure:doFail
 }
 
 function init() {
+ // client.disconnect();
   client.connect(options);
 }
 
@@ -58,7 +65,7 @@ function init() {
 function onConnect() {
 // Once a connection has been made, make a subscription and send a message.
 console.log("onConnect");
-client.subscribe("#");
+client.subscribe(user + "/#");
 /*message = new Paho.MQTT.Message("Hello from the Watch");
 message.destinationName = "/test";
 client.send(message); */
@@ -83,16 +90,24 @@ window.alert(str);
 
 }
 
+
+/*
 function sendnew(dr, st){
 	message = new Paho.MQTT.Message(st);
 	message.destinationName = user + "/" + dr;
 	client.subscribe(user + "/" + dr);
 	client.send(message); 
 }
+*/
+/**
+ * Sends MQTT message
+ * @param type
+ * @param message
+ */
 
-function singleMessage(msg){
-	message = new Paho.MQTT.Message(msg);
-	message.destinationName = user + "/";
+function sendMessage(type, message){
+	message = new Paho.MQTT.Message(message);
+	message.destinationName = user + "/" + type;
 	//message.destinationName = localStorage.getItem("user") + "/";
 	//client.subscribe(localStorage.getItem("user") + "/");
 	console.log(message);
