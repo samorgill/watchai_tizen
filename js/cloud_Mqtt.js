@@ -28,12 +28,12 @@ user = localStorage.getItem("user");
 
 //Get details of zones from phone
 ipAddress = localStorage.getItem('ipAddress');
-ipAddTest = "192.168.0.19";
+ipAddTest = "192.168.0.30";
 
 
 // Create a client instance
 
-client = new Paho.MQTT.Client("m21.cloudmqtt.com", 37781, "Gear" + parseInt(Math.random() * 100, 10));
+client = new Paho.MQTT.Client(ipAddTest, 9001, "Gear" + parseInt(Math.random() * 100, 10));
 
 //client = new Paho.MQTT.Client("192.168.0.30", 1883, "SamsungGear"); 
 /*
@@ -49,9 +49,9 @@ if(!ipAddress == null){
 client.onConnectionLost = onConnectionLost;
 client.onMessageArrived = onMessageArrived;
 var options = {
-useSSL: true,
+/*useSSL: true,
 userName: "xcihlzki",
-password: "7wph1kJER7Xh",
+password: "7wph1kJER7Xh",*/
 onSuccess:onConnect,
 onFailure:doFail
 }
