@@ -41,3 +41,5 @@ function emergency(){
 	
 }
 
+$('#userArea').append(localStorage.getItem("user"));
+

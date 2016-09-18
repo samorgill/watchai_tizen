@@ -63,6 +63,20 @@ input:checked + .slider:before {
 	background-color: #b51b04;
 }
 
+#userNa{
+	background-color: rgba(35, 38, 44, 6);
+	color: #FFF;
+}
+
+#userArea {
+	font-size: 16px;
+	color: #FFF;
+	padding-left: 17px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+	background-color: rgba(35, 38, 44, 6)
+}
+
 .toggle{
 	color: #f7f3f2;
 	padding-left: 15px;

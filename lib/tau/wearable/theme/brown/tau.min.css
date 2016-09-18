@@ -271,8 +271,8 @@ body {
     height: 100%;
     font-size: 2.125rem;
     font-family: Tizen, Samsung Sans, Helvetica;
-    background: rgba(36, 27, 19, 1);
-    color: rgba(0, 0, 0, 0.02)
+    background: rgba(35, 38, 44, 6);
+    color: rgba(200, 0, 0, 0.02)
 }
 .ui-page {
     width: 100%;
@@ -300,6 +300,7 @@ body {
 }
 .ui-content {
     width: 100%;
+    color: #FFF;
     height: auto;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -315,11 +316,11 @@ body {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: rgba(10, 25, 55, 0.02)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-header .ui-title {
     color: rgba(255, 145, 0, 1);
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
@@ -361,7 +362,7 @@ body {
     cursor: pointer
 }
 .ui-header .ui-more:active {
-    background-color: rgba(110, 88, 67, 1)!important
+    background-color: rgba(200, 38, 44, 6)!important
 }
 .ui-header .ui-more.ui-icon-detail {
     background-color: rgba(255, 145, 0, 1);
@@ -593,7 +594,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     25% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate2_holo_dark.png);
@@ -606,7 +607,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     50% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate3_holo_dark.png);
@@ -619,7 +620,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     75% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate4_holo_dark.png);
@@ -632,7 +633,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     100% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate5_holo_dark.png);
@@ -645,7 +646,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
 }
 @-moz-keyframes indeterminate {
@@ -660,7 +661,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     25% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate2_holo_dark.png);
@@ -673,7 +674,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     50% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate3_holo_dark.png);
@@ -686,7 +687,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     75% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate4_holo_dark.png);
@@ -699,7 +700,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     100% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate5_holo_dark.png);
@@ -712,7 +713,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
 }
 @-ms-keyframes indeterminate {
@@ -727,7 +728,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     25% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate2_holo_dark.png);
@@ -740,7 +741,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     50% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate3_holo_dark.png);
@@ -753,7 +754,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     75% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate4_holo_dark.png);
@@ -766,7 +767,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     100% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate5_holo_dark.png);
@@ -779,7 +780,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
 }
 @-o-keyframes indeterminate {
@@ -794,7 +795,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     25% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate2_holo_dark.png);
@@ -807,7 +808,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     50% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate3_holo_dark.png);
@@ -820,7 +821,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     75% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate4_holo_dark.png);
@@ -833,7 +834,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     100% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate5_holo_dark.png);
@@ -846,7 +847,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
 }
 @keyframes indeterminate {
@@ -861,7 +862,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     25% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate2_holo_dark.png);
@@ -874,7 +875,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     50% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate3_holo_dark.png);
@@ -887,7 +888,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     75% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate4_holo_dark.png);
@@ -900,7 +901,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
     100% {
         -webkit-mask-image: url(images/Progress/tw_progressbar_indeterminate5_holo_dark.png);
@@ -913,7 +914,7 @@ body {
         -ms-mask-repeat: no-repeat;
         -o-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
-        background-color: rgba(153, 87, 0, 1)
+        background-color: rgba(35, 38, 44, 6)
     }
 }
 progress {
@@ -1579,7 +1580,7 @@ progress.ui-progress-indeterminate::-webkit-progress-value {
     }
 }
 .ui-processing {
-    background-color: rgba(153, 87, 0, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Processing/processingsmall.png);
     -webkit-mask-repeat: no-repeat;
     -webkit-animation-duration: 1s;
@@ -1618,7 +1619,7 @@ progress.ui-progress-indeterminate::-webkit-progress-value {
 }
 .ui-processing.ui-processing-full-size::after {
     content: "";
-    background-color: rgba(153, 87, 0, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Processing/processingfull.png);
     -webkit-mask-repeat: no-repeat;
     -webkit-animation-duration: 1s;
@@ -1646,19 +1647,19 @@ progress.ui-progress-indeterminate::-webkit-progress-value {
     overflow: hidden;
     border: 0 none;
     color: rgba(245, 245, 245, 1);
-    background-color: rgba(74, 64, 55, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 a.ui-btn:active:hover,
 .ui-btn:enabled:active:hover {
-    background-color: rgba(110, 88, 67, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-btn:enabled:focus {
-    background-color: rgba(74, 64, 55, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 a.ui-btn.ui-state-disabled,
 .ui-btn:disabled {
     color: rgba(245, 245, 245, .2);
-    background-color: rgba(13, 12, 11, 1);
+    background-color: rgba(35, 38, 44, 6);
     cursor: default
 }
 .ui-btn.ui-multiline {
@@ -1693,11 +1694,11 @@ a.ui-btn.ui-state-disabled,
 }
 .ui-default {
     color: rgba(245, 245, 245, 1);
-    background-color: rgba(74, 64, 55, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 a.ui-default:active:hover,
 .ui-default:enabled:active:hover {
-    background-color: rgba(110, 88, 67, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-default:enabled:focus {
     background-color: rgba(74, 64, 55, 1)
@@ -1705,7 +1706,7 @@ a.ui-default:active:hover,
 a.ui-default.ui-state-disabled,
 .ui-default:disabled {
     color: rgba(245, 245, 245, .2);
-    background-color: rgba(13, 12, 11, 1);
+    background-color: rgba(35, 38, 44, 6);
     cursor: default
 }
 .ui-color-red {
@@ -1722,7 +1723,7 @@ a.ui-color-red:active:hover,
 a.ui-color-red.ui-state-disabled,
 .ui-color-red:disabled {
     color: rgba(245, 245, 245, .2);
-    background-color: rgba(69, 11, 1, 1);
+    background-color: rgba(35, 38, 44, 6);
     cursor: default
 }
 .ui-color-orange {
@@ -1739,7 +1740,7 @@ a.ui-color-orange:active:hover,
 a.ui-color-orange.ui-state-disabled,
 .ui-color-orange:disabled {
     color: rgba(245, 245, 245, .2);
-    background-color: rgba(69, 39, 5, 1);
+    background-color: rgba(35, 38, 44, 6);
     cursor: default
 }
 .ui-color-green {
@@ -1756,7 +1757,7 @@ a.ui-color-green:active:hover,
 a.ui-color-green.ui-state-disabled,
 .ui-color-green:disabled {
     color: rgba(245, 245, 245, .2);
-    background-color: rgba(50, 54, 48, 1);
+    background-color: rgba(35, 38, 44, 6);
     cursor: default
 }
 .ui-btn:focus,
@@ -1811,7 +1812,7 @@ input.ui-btn.ui-inline {
     left: 0;
     width: 100%;
     margin: 0;
-    background-color: rgba(31, 24, 19, 1);
+    background-color:#fff;
     border: 3px solid rgba(255, 145, 0, 1);
     display: none;
     z-index: 1100
@@ -1824,7 +1825,7 @@ input.ui-btn.ui-inline {
     min-height: 68px;
     font-size: 30px;
     text-align: left;
-    background-color: rgba(43, 37, 31, 1);
+    background-color: #fff);
     color: rgba(242, 159, 51, 1);
     padding-top: 14px;
     padding-right: 13px;
@@ -1840,7 +1841,7 @@ input.ui-btn.ui-inline {
     font-size: 2.125rem;
     text-align: left;
     color: rgba(245, 245, 245, 1);
-    background-color: rgba(31, 24, 19, 1);
+    background-color: #fff;
     padding: 10px 16px 9px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -2010,7 +2011,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     width: 100%;
     height: 100%;
     padding: 0rem .5rem;
-    color: rgba(8, 8, 8, 1)
+    color: rgba(500, 38, 44, 6)
 }
 .ui-popup.ui-ctxpopup .ui-popup-content .ui-inline-listview li a:active {
     color: rgba(245, 245, 245, 1);
@@ -2032,7 +2033,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     height: 2.6875rem;
     margin-top: -1.34375rem;
     margin-left: -1.34375rem;
-    background-color: rgba(8, 8, 8, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-size: 2.6875rem 2.6875rem;
     -moz-mask-size: 2.6875rem 2.6875rem;
     -ms-mask-size: 2.6875rem 2.6875rem;
@@ -2045,7 +2046,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     mask-repeat: no-repeat
 }
 .ui-popup.ui-ctxpopup .ui-popup-content .ui-inline-listview a.ui-list-icon-notext:active::before {
-    background-color: rgba(245, 245, 245, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-popup.ui-ctxpopup .ui-arrow {
     width: 36px;
@@ -2061,7 +2062,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
 .ui-popup.ui-ctxpopup .ui-arrow span {
     width: 20px;
     height: 20px;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     border: 1px solid rgba(117, 117, 117, .9);
     position: absolute;
     top: 6px;
@@ -2136,7 +2137,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
 .ui-popup.ui-popup-toast .ui-popup-content {
     min-height: initial;
     padding: .6875rem 2.625rem .75rem;
-    background-color: rgba(31, 24, 19, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-popup.ui-popup-toast.ui-popup-toast-graphic .ui-popup-toast-icon {
     width: 3.5rem;
@@ -2666,7 +2667,8 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     text-overflow: ellipsis;
     white-space: nowrap;
     position: relative;
-    color: rgba(245, 245, 245, 1)
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(35,38,44,6)
 }
 .ui-listview li>* {
     white-space: nowrap;
@@ -2692,7 +2694,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     box-sizing: content-box
 }
 .ui-listview li.ui-li-active {
-    background-color: rgba(89, 74, 59, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1)
 }
 .ui-listview .ui-listview-divider {
@@ -2700,12 +2702,12 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     min-height: 1.875rem;
     line-height: 1.875rem;
     padding: 0 .5rem 0 1rem;
-    background-color: rgba(79, 74, 70, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1);
     font-size: 1.5rem
 }
 .ui-listview .ui-li-sub-text {
-    color: rgba(143, 110, 79, 1);
+    color: rgba(35, 38, 44, 6;
     font-size: 1.75rem
 }
 .ui-listview .ui-li-has-action-icon .ui-action-text {
@@ -2717,7 +2719,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     position: absolute;
     height: 3.5rem;
     width: .125rem;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     right: 4.25rem;
     top: 20%
 }
@@ -2740,27 +2742,27 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
 }
 .ui-listview .ui-li-has-action-icon .ui-action-delete {
     -webkit-mask-image: url(images/listview/tw_list_delete_holo_dark.png);
-    background-color: rgba(245, 245, 245, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-listview .ui-li-has-action-icon .ui-action-setting {
     -webkit-mask-image: url(images/listview/tw_list_setting_holo_dark.png);
-    background-color: rgba(245, 245, 245, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-listview .ui-li-has-action-icon .ui-action-add {
     -webkit-mask-image: url(images/listview/tw_list_add_holo_dark.png);
-    background-color: rgba(245, 245, 245, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-listview .ui-li-has-action-icon.ui-li-active {
     background-color: transparent
 }
 .ui-listview .ui-li-has-action-icon.ui-li-active .ui-action-text:active {
-    background-color: rgba(89, 74, 59, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1)
 }
 .ui-listview .ui-li-has-action-icon .ui-action-delete:active,
 .ui-listview .ui-li-has-action-icon .ui-action-setting:active,
 .ui-listview .ui-li-has-action-icon .ui-action-add:active {
-    background-color: rgba(89, 74, 59, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1)
 }
 .ui-listview .li-divider {
@@ -2768,7 +2770,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     min-height: 1.875rem;
     line-height: 1.875rem;
     padding: 0 .5rem 0 1rem;
-    background-color: rgba(79, 74, 70, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1);
     font-size: 1.5rem
 }
@@ -2807,7 +2809,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     font-size: 42px;
     font-weight: 600;
     border-radius: 2px;
-    background-color: rgba(255, 255, 255, .15)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-datefield .ui-datefield-separator {
     display: block;
@@ -2817,7 +2819,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     background: transparent url(images/Datetimepicker/tw_timepicker_num_dot.png)
 }
 .ui-datefield>.ui-btn:enabled:focus {
-    background-color: rgba(255, 255, 255, .15)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-datefield>.ui-btn:disabled {
     color: #404040
@@ -3571,7 +3573,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     width: 2.8125rem;
     height: 100%;
     padding-left: .125rem;
-    background-color: rgba(41, 41, 41, 1);
+    background-color: rgba(35, 38, 44, 6);
     z-index: 10;
     overflow: visible;
     -webkit-user-select: none;
@@ -3595,7 +3597,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     height: 2.25rem
 }
 .ui-indexscrollbar ul li.ui-state-selected {
-    background-color: rgba(51, 51, 51, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(255, 145, 0, 1)
 }
 .ui-indexscrollbar ul.ui-indexscrollbar-supplementary {
@@ -3606,11 +3608,11 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     width: 100%
 }
 .ui-indexscrollbar ul.ui-indexscrollbar-supplementary li {
-    background-color: rgba(51, 51, 51, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(89, 89, 89, 1)
 }
 .ui-indexscrollbar ul.ui-indexscrollbar-supplementary li.ui-state-selected {
-    background-color: rgba(51, 51, 51, 1);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(255, 145, 0, 1)
 }
 .ui-indexscrollbar+.ui-listview li {
@@ -3635,11 +3637,11 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     line-height: 5.4375rem;
     font-size: 4.375rem;
     text-align: center;
-    background-color: rgba(89, 74, 59, .95);
+    background-color: rgba(35, 38, 44, 6);
     color: rgba(245, 245, 245, 1)
 }
 .ui-indexscrollbar-indicator>span>span.ui-selected {
-    color: rgba(255, 145, 0, 1)
+    color: rgba(100, 145, 0, 1)
 }
 .ui-scrollbar-bar-type {
     position: absolute
@@ -3906,7 +3908,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
 }
 .ui-swipelist-left .ui-swipelist-icon {
     margin-left: 2%;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Swipelist/b_logs_icon_body_btn_call_nor.png);
     -moz-mask-image: url(images/Swipelist/b_logs_icon_body_btn_call_nor.png);
     -ms-mask-image: url(images/Swipelist/b_logs_icon_body_btn_call_nor.png);
@@ -3923,7 +3925,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
 }
 .ui-swipelist-right .ui-swipelist-icon {
     margin-left: 80%;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Swipelist/b_logs_icon_actionbar_btn_msg_nor.png);
     -moz-mask-image: url(images/Swipelist/b_logs_icon_actionbar_btn_msg_nor.png);
     -ms-mask-image: url(images/Swipelist/b_logs_icon_actionbar_btn_msg_nor.png);
@@ -3948,7 +3950,7 @@ div.ui-popup.ui-ctxpopup.ui-popup-content-size .ui-popup-content {
     left: 0;
     display: block;
     height: 6px;
-    background-color: rgba(64, 58, 53, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-tab-indicator .ui-tab-item.ui-tab-active {
     background-color: rgba(250, 145, 7, 1)
@@ -3968,7 +3970,7 @@ input[type=radio] {
     position: relative
 }
 input[type=radio] {
-    background-color: rgba(18, 9, 0, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
@@ -3987,7 +3989,7 @@ input[type=radio] {
 }
 input[type=radio]::after {
     content: "";
-    background-color: rgba(245, 245, 245, .3);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
@@ -4030,7 +4032,7 @@ input[type=radio]:checked::before {
     position: absolute
 }
 input[type=radio]:active {
-    background-color: rgba(79, 36, 0, .4);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_radiobox_holo_dark.png);
@@ -4044,7 +4046,7 @@ input[type=radio]:active {
 }
 input[type=radio]:active::after {
     content: "";
-    background-color: rgba(245, 245, 245, .3);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_radiobox_line.png);
@@ -4061,7 +4063,7 @@ input[type=radio]:active::after {
 }
 input[type=radio]:active:checked::before {
     content: "";
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_radio_holo_dark.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_radio_holo_dark.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_radio_holo_dark.png);
@@ -4092,11 +4094,11 @@ input[type=checkbox]:not(.ui-switch-input) {
     -ms-mask-size: 100% 100%;
     -o-mask-size: 100% 100%;
     mask-size: 100% 100%;
-    background-color: rgba(18, 9, 0, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 input[type=checkbox]:not(.ui-switch-input)::after {
     content: "";
-    background-color: rgba(245, 245, 245, .3);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-mask-image: url(images/Controller_icon/tw_btn_checkbox_line_holo_dark.png);
     -moz-mask-image: url(images/Controller_icon/tw_btn_checkbox_line_holo_dark.png);
     -ms-mask-image: url(images/Controller_icon/tw_btn_checkbox_line_holo_dark.png);
@@ -4139,18 +4141,18 @@ input[type=checkbox]:not(.ui-switch-input):checked::before {
     position: absolute
 }
 input[type=checkbox]:not(.ui-switch-input):active {
-    background-color: rgba(79, 36, 0, .4)
+    background-color: rgba(35, 38, 44, 6)
 }
 input[type=checkbox]:not(.ui-switch-input):active::after {
     content: "";
-    background-color: rgba(245, 245, 245, .3);
+    background-color: rgba(35, 38, 44, 6);
     width: 100%;
     height: 100%;
     position: absolute
 }
 input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     content: "";
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     width: 100%;
     height: 100%;
     position: absolute
@@ -4198,7 +4200,7 @@ input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     width: .8125rem;
     height: .8125rem;
     -webkit-mask-image: -webkit-radial-gradient(#000 .25rem, transparent .375rem);
-    background-color: rgba(245, 245, 245, .4);
+    background-color: rgba(35, 38, 44, 6);
     margin-right: .5625rem;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -4210,7 +4212,7 @@ input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     margin-right: 0
 }
 .ui-page-indicator .ui-page-indicator-item.ui-page-indicator-active {
-    background-color: rgba(245, 245, 245, 1)
+    background-color: rgba(35, 38, 44, 6)
 }
 .ui-page-indicator.ui-page-indicator-circular {
     top: 0;
@@ -4245,7 +4247,7 @@ input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     width: 100%;
     height: 100%;
     -webkit-mask-image: -webkit-radial-gradient(#000 .125rem, transparent .25rem);
-    background-color: rgba(245, 245, 245, .4);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-transition: 250ms transform ease-out;
     -moz-transition: 250ms transform ease-out;
     -o-transition: 250ms transform ease-out;
@@ -4256,7 +4258,7 @@ input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     background-color: transparent
 }
 .ui-page-indicator.ui-page-indicator-circular .ui-page-indicator-item.ui-page-indicator-active::before {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(35, 38, 44, 6);
     -webkit-transform: scale3d(1.5, 1.5, 1.5);
     -moz-transform: scale3d(1.5, 1.5, 1.5);
     -ms-transform: scale3d(1.5, 1.5, 1.5);
@@ -4278,7 +4280,7 @@ input[type=checkbox]:not(.ui-switch-input):active:checked::before {
     height: 100%;
     position: fixed;
     top: 0;
-    background-color: rgba(36, 27, 19, 1);
+    background-color: rgba(35, 38, 44, 6);
     z-index: 1201;
     box-sizing: border-box
 }

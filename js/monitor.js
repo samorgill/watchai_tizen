@@ -39,6 +39,9 @@ function back(){
 }
 
 
+$('#userArea').append(localStorage.getItem("user"));
+
+
 
 /*
 *//**

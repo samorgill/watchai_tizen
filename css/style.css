@@ -35,7 +35,7 @@
 
 body {
     margin: 0px auto;
-    background-color:#222;
+    background-color: rgba(35, 38, 44, 6);
 }
 
 .contents {
@@ -71,8 +71,9 @@ body {
 
 #userArea {
 	font-size: 16px;
-	color: #fff;
+	color: #FFF;
 	padding-left: 16px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	background-color: rgba(35, 38, 44, 6)
 }

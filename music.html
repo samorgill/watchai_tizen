@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+ <title>Wearable UI</title>
+	<script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+	<script src="js/jquery-1.12.1.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/brown/tau.min.css">
+	<link href="index.html"> 
+	<link rel="stylesheet" href="css/switch.css">
+ 
+  </head>
+  
+  <!-- Initialises the MQTT Broker -->
+  <body onload="startMon();">
+	<div class="ui-page ui-page-active" id="main">
+	<div id='userArea'></div>
+		<header class="ui-header">
+			<h2 class="ui-title">Music</h2>
+		</header>
+		
+  		<!-- Menu -->
+		<div class="ui-content">
+		<ul class="ui-listview">
+			<li><a href="#" onclick="genius();">Genius</a>
+			<li><a href="#" onclick="sleep();">Sleep</a>
+			<li><a href="#" onclick="party();">Party</a>
+			<li><a href="#" onclick="rhyme();">Rhyme</a>
+			<li id='emergency' ><a href="#" onclick="stop();">Stop</a>
+			<li><a href="#" onclick="back();">Back</a></li>
+		</ul>	
+		</div>
+		<div id="toast" class="ui-popup ui-popup-toast">
+			<div id="toast-content" class="ui-popup-content">
+		</div>
+		</div>
+	</div>
+  </body>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+  
+<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+<script type="text/javascript" src="js/circle-helper.js"></script>
+<script src="js/cloud_Mqtt.js"></script>
+<script src="js/music.js"></script>
+</html>

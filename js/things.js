@@ -24,6 +24,13 @@ function add(){
 	window.open("add.html");
 }
 
+function music(){
+	
+	window.open("music.html");
+	//window.close("index.html");
+	
+}
+
 // Goes back a page
 
 function back(){
@@ -232,14 +239,15 @@ function getAllThings(data){
 			//tr.append('<input/>');
 			
 			if(myData[i].propertyMap.state=="Locked"){
-			tr.append('<div id="togs' + i + '">' + '<label class="switch">' +
-					  '<input type="checkbox" class="' + myData[i].propertyMap.thing +'" checked>' +
+			
+				tr.append("<td>" + myData[i].propertyMap.thing + 
+						 " " + "\u00A0" + "</td>");
+				
+				tr.append('<div id="togs' + i + '">' + '<label class="switch">' +
+					  '<input type="checkbox" class="' + myData[i].propertyMap.thing +'" checked>'  +
 					  '<div class="slider round"></div>'
 					+'</label>' + '</div>');
 					
-		tr.append("<td>" + myData[i].propertyMap.thing + 
-				 " " + "</td>");
-			
 		$('#resultScreen').append(tr);
 		
 		var up = '.' + myData[i].propertyMap.thing;
@@ -255,13 +263,16 @@ function getAllThings(data){
 			
 		
 		} else if (myData[i].propertyMap.state=="Unlocked"){
+		
+			tr.append("<td>" + myData[i].propertyMap.thing + 
+					 " " + "\u00A0" + "</td>");
+			
 			tr.append('<label class="switch">' +
 					  '<input type="checkbox" class="' + myData[i].propertyMap.thing +'" >' +
 					  '<div class="slider round"></div>'
 					+'</label>');
 					
-		tr.append("<td>" + myData[i].propertyMap.thing + 
-				 " " + "</td>");
+		
 		
 
 		$('#resultScreen').append(tr);
@@ -332,7 +343,7 @@ function hide(){
 }*/
 
 function getUser(){
-	$('#userNa').append(localStorage.getItem("user"));
+	$('#userArea').append(localStorage.getItem("user"));
 }
 
 

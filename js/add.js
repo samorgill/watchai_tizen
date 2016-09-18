@@ -34,3 +34,6 @@ function addit(){
 function back(){
 	window.open('things.html');
 }
+
+
+$('#userArea').append(localStorage.getItem("user"));

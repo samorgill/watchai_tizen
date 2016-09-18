@@ -166,3 +166,5 @@ window.onload = function () {
 	}, false);
 })(window.tau);
 
+
+$('#userArea').append(localStorage.getItem("user"));
